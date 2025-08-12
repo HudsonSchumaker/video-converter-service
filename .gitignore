@@ -19,6 +19,15 @@ target/
 *.iml
 *.ipr
 
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
