@@ -1,4 +1,4 @@
-package com.example.file_conversion_service.model;
+package br.schumaker.fcs.model;
 
 import java.time.LocalDateTime;
 

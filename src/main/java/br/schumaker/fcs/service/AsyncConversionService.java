@@ -1,4 +1,4 @@
-package com.example.file_conversion_service.service;
+package br.schumaker.fcs.service;
 
 import java.time.LocalDateTime;
 import java.util.Map;
@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
-import com.example.file_conversion_service.model.ConversionJob;
+import br.schumaker.fcs.model.ConversionJob;
 
 @Service
 public class AsyncConversionService {

@@ -1,4 +1,4 @@
-package com.example.file_conversion_service.config;
+package br.schumaker.fcs.config;
 
 import java.util.concurrent.Executor;
 

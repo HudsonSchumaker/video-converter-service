@@ -1,4 +1,4 @@
-package com.example.file_conversion_service.controller;
+package br.schumaker.fcs.controller;
 
 import java.io.File;
 import java.io.IOException;
@@ -24,9 +24,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.example.file_conversion_service.dto.ConversionRequest;
-import com.example.file_conversion_service.dto.ConversionResponse;
-import com.example.file_conversion_service.service.FileConversionService;
+import br.schumaker.fcs.dto.ConversionRequest;
+import br.schumaker.fcs.dto.ConversionResponse;
+import br.schumaker.fcs.service.FileConversionService;
 
 import jakarta.validation.Valid;
 

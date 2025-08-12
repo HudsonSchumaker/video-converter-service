@@ -1,4 +1,4 @@
-package com.example.file_conversion_service.exception;
+package br.schumaker.fcs.exception;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;

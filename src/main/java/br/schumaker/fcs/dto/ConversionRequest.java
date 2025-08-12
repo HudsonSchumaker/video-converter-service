@@ -1,4 +1,4 @@
-package com.example.file_conversion_service.dto;
+package br.schumaker.fcs.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

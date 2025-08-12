@@ -1,4 +1,4 @@
-package com.example.file_conversion_service.service;
+package br.schumaker.fcs.service;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,9 +14,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.example.file_conversion_service.dto.ConversionRequest;
-import com.example.file_conversion_service.dto.ConversionResponse;
-import com.example.file_conversion_service.model.ConversionJob;
+import br.schumaker.fcs.dto.ConversionRequest;
+import br.schumaker.fcs.dto.ConversionResponse;
+import br.schumaker.fcs.model.ConversionJob;
 
 @Service
 public class FileConversionService {
